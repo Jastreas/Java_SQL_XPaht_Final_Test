@@ -1,41 +1,3 @@
-/* 
-
-RESPUESTAS PARTE TEÓRICA:
-
-1) C -> estructura de arbol
-2) D -> todas
-3) B -> siempre se necesita conectar mediante obdc
-4)
-5)
-6) D -> ninguna
-7) C -> realiza consultas y modificaciones sobre xml
-8) B -> Se cierra con disconnect
-
-
-
-
-
-
-
-
-*/
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-PARTE PRÁCTICA:
-*/
-
 /* IMPORTS  */
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
@@ -46,9 +8,6 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 import java.io.File;
 import java.sql.*;
-
-
-
 
 /* MÉTODOS: */
 
@@ -91,7 +50,6 @@ static class Funciones{
 	* el propio resultset ya que no puedo mostrarlo desde el main porque se cierra
 	*
 	* */
-
 
 		public ResultSet consultaFacil(Connection con){
 	            //Query
